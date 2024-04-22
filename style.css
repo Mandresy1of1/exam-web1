@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    font-family: "Poppins";
+    margin:0;
+    padding:0;
+    color: white;
+}
+
+.dallas{
+    background-color: rgb(0,107,182);
+    justify-content: center;
+    text-align: center;
+}
+
+.dallas img{
+    width:100px;
+}
+
+.navbar{
+    height: 5vh;
+    background-color: rgb(0,107,182);
+}
+
+.navlist{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.navlist a{
+    text-decoration: none; 
+}
+
+.navlist a:hover{
+    color: rgb(40,43,60);
+}
+.ready{
+    height:90vh;
+    background-image: url(../web1exam/assets/FB_IMG_1713105960172.jpg);
+    background-repeat: no-repeat;
+    margin-left: 1vw;
+    margin-top: 1vw;
+}
+
+.get{
+    background-color: white;
+    width: 15%;
+    height: 10%;
+    border-radius: 15px;
+    margin-top: 32%;
+    margin-left: 44%;
+    color: rgb(0,107,182);
+}
