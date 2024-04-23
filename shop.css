@@ -54,33 +54,72 @@
 
 .bigcontainer{
     width: 80vw;
-    height: 80vh;
-    background-color: red;
+    height: 160vh;
+    /* background-color: red; */
     margin: 0 auto;
     margin-top:2vh;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     padding-top: 2vh;
+    flex-wrap: wrap;
 }
 
-.product1{
+.product1contain{
+    position: relative;
+    width: 25vw;
+    height: 60vh;
+    background-image:url(../web1exam/assets/jersey1.jpg);
+    background-size: cover;
+    background-position-x: center;
+    
+}
+
+.product2contain{
     position: relative;
     width: 22vw;
     height: 60vh;
-    background-color: blue;
+    background-image:url(../web1exam/assets/jersey3.jpg);
+    background-size: cover;
+   background-position-x: center;
 }
-
-.product2{
+.product3contain{
     position: relative;
     width: 22vw;
     height: 60vh;
-    background-color: blue;
+    background-image:url(../web1exam/assets/jersey4.jpg);
+    background-size: cover;
+    background-position-x: center;
 }
-.product3{
+
+.product4contain{
     position: relative;
     width: 22vw;
     height: 60vh;
-    background-color: blue;
+    background-image:url(../web1exam/assets/23_City_Edition_Merch_Nike_Grey_Hoodie_Web.png);
+    background-size: cover;
+    background-position-x: center;
+    
 }
 
+.product5contain{
+    position: relative;
+    width: 22vw;
+    height: 60vh;
+    background-image:url(../web1exam/assets/24-city-edition-satin-full-snap-jacket_ss5_p-200598761+pv-1+u-y9lx0uh81wh4gg0orz2k+v-8wxxvxmi9wnyiddtfvit.jpg);
+    background-size: cover;
+   background-position-x: center;
+}
+.product6contain{
+    position: relative;
+    width: 22vw;
+    height: 60vh;
+    background-image:url(../web1exam/assets/dallas-mavericks-city-edition-blue-and-green-jacket.jpg);
+    background-size: cover;
+    background-position-x: center;
+}
+
+.panier{
+    background-color:blue ;
+    border-radius: 15px;
+}
