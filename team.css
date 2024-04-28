@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+    font-family: "Poppins";
+    margin:0;
+    padding:0;
+    color: white;
+}
+
+.dallas{
+    background-color: rgb(0,107,182);
+    justify-content: center;
+    text-align: center;
+}
+
+.dallas img{
+    width:100px;
+}
+
+.navbar{
+    height: 5vh;
+    background-color: rgb(0,107,182);
+}
+
+.navlist{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.navlist a{
+    text-decoration: none; 
+}
+
+.navlist a:hover{
+    color: rgb(40,43,60);
+}
+.ready{
+    height:90vh;
+    background-image: url(../web1exam/assets/FB_IMG_1713105960172.jpg);
+    background-repeat: no-repeat;
+    margin-left: 1vw;
+    margin-top: 1vw;
+}
+
+.bigcontainer{
+    width: 100vw;
+    height: 160vh;
+    margin: 0 auto;
+    margin-top:2vh;
+    display: flex;;
+    justify-content: space-evenly;
+    padding-top: 2vh;
+    flex-wrap:wrap;
+   
+}
+
+.bigcontainer span{
+    color:rgb(0,107,182) ;
+    font-size: 2rem;
+}
+
+#player{
+    width: 20vw;
+    height: 40vh;
+    background-position: center;
+    background-size: cover;   
+}
+
+.poste{
+    display: flex;
+    flex-direction: row;
+    gap:5vw;
+}
+.pg{
+width: 100%;
+height: auto;
+display: flex;
+flex-direction:column;
+align-items: center;
+}
+
+.sg{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5vh;
+}
+.sf{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top: 5vh;
+}
+.pf{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top: 5vh;
+}
+.c{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top: 5vh;
+}
+.player1{
+    background-image: url(../web1exam/assets/team/Exum-Roster-Headshot-23-24.png);
+}
+
+.player2{
+    background-image: url(../web1exam/assets/team/Luka-Doncic-Roster-Headshot-23-24.png);
+}
+.player3{
+    background-image: url(../web1exam/assets/team/Hardy-Roster-Headshot-23-24.png);
+}
+.player4{
+    background-image: url(../web1exam/assets/team/Irving-Roster-Headshot-23-24.png);
+}
+.player5{
+    background-image: url(../web1exam/assets/team/Hardaway-Roster-Headshot-23-24.png);
+}
+.player6{
+    background-image: url(../web1exam/assets/team/Green-Roster-Headshot-23-24.png);
+}
+.player7{
+    background-image: url(../web1exam/assets/team/Jones-Roster-Headshot-23-24.png);
+}
+.player8{
+    background-image: url(../web1exam/assets/team/Brandon-Williams-Roster-Headshot-23-24.png);
+}
+.player9{
+    background-image: url(../web1exam/assets/team/Morris-Roster-Headshot-23_24.png);
+}
+.player10{
+    background-image: url(../web1exam/assets/team/omax-Roster-Headshot-23-24.png);
+}
+.player11{
+    background-image: url(../web1exam/assets/team/pj-washington-1.png);
+}
+.player12{
+    background-image: url(../web1exam/assets/team/Maxi-Roster-Headshot-23-24.png);
+}
+.player13{
+    background-image: url(../web1exam/assets/team/Lawson-Roster-Headshot-23-24.png);
+}
+.player14{
+    background-image: url(../web1exam/assets/team/Powell-Roster-Headshot-23-24.png);
+}
+.player15{
+    background-image: url(../web1exam/assets/team/Daniel-Gafford-Roster-Headshot-23-24.png);;
+}
+.player16{
+    background-image: url(../web1exam/assets/team/Lively-Roster-Headshot-23-24.png);;
+}
+
+
+
+
+
+
