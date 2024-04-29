@@ -64,13 +64,15 @@
     width: 20vw;
     height: 40vh;
     background-position: center;
-    background-size: cover;   
+    background-size: cover;
+    transition:transform 0.3s ;   
 }
 
 .poste{
     display: flex;
     flex-direction: row;
     gap:5vw;
+    
 }
 .pg{
 width: 100%;
@@ -161,6 +163,11 @@ align-items: center;
 }
 .player16{
     background-image: url(../web1exam/assets/team/Lively-Roster-Headshot-23-24.png);;
+}
+
+
+#player:hover {
+transform: scale(1.2);
 }
 
 
