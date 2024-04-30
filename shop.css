@@ -55,7 +55,6 @@
 .bigcontainer{
     width: 80vw;
     height: 160vh;
-    /* background-color: red; */
     margin: 0 auto;
     margin-top:2vh;
     display: flex;
@@ -67,45 +66,48 @@
 
 .product1contain{
     position: relative;
-    width: 22vw;
-    height: 50vh;
-    background-image:url(../web1exam/assets/jersey1.jpg);
-    background-size: cover;
-    background-position-x: center;
+    width: 20vw;
+    height: 35vh;
+    background-image:url(../web1exam/assets/DB3568-480-PHSBH001_JPG_HEI_875_WID_875_1800x1800.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     
 }
 
 .product2contain{
     position: relative;
-    width: 22vw;
-    height: 50vh;
+    width: 20vw;
+    height: 35vh;
     background-image:url(../web1exam/assets/jersey3.jpg);
-    background-size: cover;
-   background-position-x: center;
+    background-size: contain;
+    background-position: center;
+
 }
 .product3contain{
     position: relative;
-    width: 22vw;
-    height: 50vh;
+    width: 20vw;
+    height: 35vh;
     background-image:url(../web1exam/assets/jersey4.jpg);
-    background-size: cover;
-    background-position-x: center;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .product4contain{
     position: relative;
-    width: 22vw;
-    height: 50vh;
+    width: 20vw;
+    height: 35vh;
     background-image:url(../web1exam/assets/23_City_Edition_Merch_Nike_Grey_Hoodie_Web.png);
-    background-size: cover;
-    background-position-x: center;
-    
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;   
 }
 
 .product5contain{
     position: relative;
-    width: 22vw;
-    height: 50vh;
+    width: 20vw;
+    height: 35vh;
     background-image:url(../web1exam/assets/24-city-edition-satin-full-snap-jacket_ss5_p-200598761+pv-1+u-y9lx0uh81wh4gg0orz2k+v-8wxxvxmi9wnyiddtfvit.jpg);
     background-size: contain;
     background-position: center;
@@ -113,9 +115,60 @@
 }
 .product6contain{
     position: relative;
-    width: 22vw;
-    height: 50vh;
+    width: 20vw;
+    height: 35vh;
     background-image:url(../web1exam/assets/dallas-mavericks-city-edition-blue-and-green-jacket.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.product7contain{
+    position: relative;
+    width: 20vw;
+    height: 35vh;
+    background-image:url(../web1exam/assets/23-24_DanielGafford_STATEMENT_BACK_540x.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}.product8contain{
+    position: relative;
+    width: 20vw;
+    height: 35vh;
+    background-image:url(../web1exam/assets/38677X_DM4_PV_1800x1800.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product9contain{
+    position: relative;
+    width: 20vw;
+    height: 35vh;
+    background-image:url(../web1exam/assets/dallas-mavericks-word-arch-graphic-t-shirt-mens_ss4_p-12085488+pv-1+u-tvdkq4lr6t8v8uvf0i03+v-b3704f6c11a74605b15a5ba1928b745f.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}.product10contain{
+    position: relative;
+    width: 20vw;
+    height: 35vh;
+    background-image:url(../web1exam/assets/70707446_9FIFTY_CUS9FIFTYSNAP_DALMAV_BLK_3QL_1800x1800.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}.product11contain{
+    position: relative;
+    width: 20vw;
+    height: 35vh;
+    background-image:url(../web1exam/assets/70731007_9FIFTY_CUS9FIFTYSNAP_DALMAV_WHI_3QL_1800x1800.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}.product12contain{
+    position: relative;
+    width: 20vw;
+    height: 35vh;
+    background-image:url(../web1exam/assets/23_City_Edition\ Merch_Basketball_Web.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
