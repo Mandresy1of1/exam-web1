@@ -1,62 +1,63 @@
-*{
+* {
     box-sizing: border-box;
     font-family: "Poppins";
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     color: white;
 }
 
-.dallas{
-    background-color: rgb(0,107,182);
+.dallas {
+    background-color: rgb(0, 107, 182);
     justify-content: center;
     text-align: center;
 }
 
-.dallas img{
-    width:100px;
+.dallas img {
+    width: 100px;
 }
 
-.navbar{
+.navbar {
     height: 5vh;
-    background-color: rgb(0,107,182);
+    background-color: rgb(0, 107, 182);
 }
 
-.navlist{
-    display:flex;
+.navlist {
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
     list-style: none;
 }
 
-.navlist a{
-    text-decoration: none; 
+.navlist a {
+    text-decoration: none;
 }
 
-.navlist a:hover{
-    color:rgb(4, 251, 4);
+.navlist a:hover {
+    color: rgb(4, 251, 4);
 }
-.ready{
-    height:90vh;
+
+.ready {
+    height: 90vh;
     background-image: url(../web1exam/assets/FB_IMG_1713105960172.jpg);
     background-repeat: no-repeat;
     margin-left: 1vw;
     margin-top: 1vw;
 }
 
-.fan{
+.fan {
     width: 100%;
-    height:80vh;
-   background-image: url(../web1exam/assets/6U7A2636-JerSean-Golatt.jpg); 
-   background-size: 100% 100%;
-   background-position-x: center;
-   background-repeat: no-repeat;
+    height: 80vh;
+    background-image: url(../web1exam/assets/6U7A2636-JerSean-Golatt.jpg);
+    background-size: 100% 100%;
+    background-position-x: center;
+    background-repeat: no-repeat;
 }
 
-.bigcontainer{
+.bigcontainer {
     width: 80vw;
     height: 160vh;
     margin: 0 auto;
-    margin-top:2vh;
+    margin-top: 2vh;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -64,133 +65,144 @@
     flex-wrap: wrap;
 }
 
-.product1contain{
+.product1contain {
     position: relative;
     width: 20vw;
     height: 35vh;
-    background-image:url(../web1exam/assets/DB3568-480-PHSBH001_JPG_HEI_875_WID_875_1800x1800.webp);
+    background-image: url(../web1exam/assets/DB3568-480-PHSBH001_JPG_HEI_875_WID_875_1800x1800.webp);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    
+
 }
 
-.product2contain{
+.product2contain {
     position: relative;
     width: 20vw;
     height: 35vh;
-    background-image:url(../web1exam/assets/jersey3.jpg);
+    background-image: url(../web1exam/assets/jersey3.jpg);
     background-size: contain;
     background-position: center;
 
 }
-.product3contain{
-    position: relative;
-    width: 20vw;
-    height: 35vh;
-    background-image:url(../web1exam/assets/jersey4.jpg);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-}
 
-.product4contain{
+.product3contain {
     position: relative;
     width: 20vw;
     height: 35vh;
-    background-image:url(../web1exam/assets/23-24_DanielGafford_STATEMENT_BACK_540x.webp);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;   
-}
-
-.product5contain{
-    position: relative;
-    width: 20vw;
-    height: 35vh;
-    background-image:url(../web1exam/assets/24-city-edition-satin-full-snap-jacket_ss5_p-200598761+pv-1+u-y9lx0uh81wh4gg0orz2k+v-8wxxvxmi9wnyiddtfvit.jpg);
-    background-size: contain;
-    background-position: center;
-   background-repeat: no-repeat;
-}
-.product6contain{
-    position: relative;
-    width: 20vw;
-    height: 35vh;
-    background-image:url(../web1exam/assets/dallas-mavericks-city-edition-blue-and-green-jacket.jpg);
+    background-image: url(../web1exam/assets/jersey4.jpg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.product7contain{
+.product4contain {
     position: relative;
     width: 20vw;
     height: 35vh;
-    background-image:url(../web1exam/assets/23_City_Edition_Merch_Nike_Grey_Hoodie_Web.png);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-}.product8contain{
-    position: relative;
-    width: 20vw;
-    height: 35vh;
-    background-image:url(../web1exam/assets/38677X_DM4_PV_1800x1800.webp);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.product9contain{
-    position: relative;
-    width: 20vw;
-    height: 35vh;
-    background-image:url(../web1exam/assets/dallas-mavericks-word-arch-graphic-t-shirt-mens_ss4_p-12085488+pv-1+u-tvdkq4lr6t8v8uvf0i03+v-b3704f6c11a74605b15a5ba1928b745f.jpg);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-}.product10contain{
-    position: relative;
-    width: 20vw;
-    height: 35vh;
-    background-image:url(../web1exam/assets/70707446_9FIFTY_CUS9FIFTYSNAP_DALMAV_BLK_3QL_1800x1800.webp);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-}.product11contain{
-    position: relative;
-    width: 20vw;
-    height: 35vh;
-    background-image:url(../web1exam/assets/70731007_9FIFTY_CUS9FIFTYSNAP_DALMAV_WHI_3QL_1800x1800.webp);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-}.product12contain{
-    position: relative;
-    width: 20vw;
-    height: 35vh;
-    background-image:url(../web1exam/assets/23_City_Edition\ Merch_Basketball_Web.png);
+    background-image: url(../web1exam/assets/23-24_DanielGafford_STATEMENT_BACK_540x.webp);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.panier{
-    background-color:rgb(0, 218, 0) ;
+.product5contain {
+    position: relative;
+    width: 20vw;
+    height: 35vh;
+    background-image: url(../web1exam/assets/24-city-edition-satin-full-snap-jacket_ss5_p-200598761+pv-1+u-y9lx0uh81wh4gg0orz2k+v-8wxxvxmi9wnyiddtfvit.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.product6contain {
+    position: relative;
+    width: 20vw;
+    height: 35vh;
+    background-image: url(../web1exam/assets/dallas-mavericks-city-edition-blue-and-green-jacket.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.product7contain {
+    position: relative;
+    width: 20vw;
+    height: 35vh;
+    background-image: url(../web1exam/assets/23_City_Edition_Merch_Nike_Grey_Hoodie_Web.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.product8contain {
+    position: relative;
+    width: 20vw;
+    height: 35vh;
+    background-image: url(../web1exam/assets/38677X_DM4_PV_1800x1800.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.product9contain {
+    position: relative;
+    width: 20vw;
+    height: 35vh;
+    background-image: url(../web1exam/assets/dallas-mavericks-word-arch-graphic-t-shirt-mens_ss4_p-12085488+pv-1+u-tvdkq4lr6t8v8uvf0i03+v-b3704f6c11a74605b15a5ba1928b745f.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.product10contain {
+    position: relative;
+    width: 20vw;
+    height: 35vh;
+    background-image: url(../web1exam/assets/70707446_9FIFTY_CUS9FIFTYSNAP_DALMAV_BLK_3QL_1800x1800.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.product11contain {
+    position: relative;
+    width: 20vw;
+    height: 35vh;
+    background-image: url(../web1exam/assets/70731007_9FIFTY_CUS9FIFTYSNAP_DALMAV_WHI_3QL_1800x1800.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.product12contain {
+    position: relative;
+    width: 20vw;
+    height: 35vh;
+    background-image: url(../web1exam/assets/23_City_Edition\ Merch_Basketball_Web.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.panier {
+    background-color: rgb(0, 218, 0);
     border-radius: 15px;
 }
 
-.product span{
-   color:rgb(40,43,60);
+.product span {
+    color: rgb(40, 43, 60);
 }
 
 
-footer{
+footer {
     width: 100%;
     height: 40vh;
-    background-color: rgb(0,107,182);
+    background-color: rgb(0, 107, 182);
 }
 
-.box3{
+.box3 {
     width: 100%;
     height: 100%;
     display: flex;
@@ -201,31 +213,31 @@ footer{
     padding-top: 10vh;
 }
 
-.minibox{
+.minibox {
     display: flex;
     flex-direction: column;
 }
 
-.minibox img{
+.minibox img {
     width: 100px;
 }
 
-.minibox a{
+.minibox a {
     text-decoration: none;
 }
 
-.minibox span{
+.minibox span {
     color: rgb(6, 255, 6);
 }
 
 
-footer{
+footer {
     width: 100%;
     height: 40vh;
-    background-color: rgb(0,107,182);
+    background-color: rgb(0, 107, 182);
 }
 
-.box3{
+.box3 {
     width: 100%;
     height: 100%;
     display: flex;
@@ -236,24 +248,24 @@ footer{
     padding-top: 10vh;
 }
 
-.minibox{
+.minibox {
     display: flex;
     flex-direction: column;
 }
 
-.minibox img{
+.minibox img {
     width: 100px;
 }
 
-.minibox a{
+.minibox a {
     text-decoration: none;
 }
 
-.minibox a:hover{
-    color: rgb(40,43,60);
+.minibox a:hover {
+    color: rgb(40, 43, 60);
 }
 
-.minibox span{
+.minibox span {
     color: rgb(6, 255, 6);
 }
 
@@ -261,3 +273,230 @@ footer{
 
 
 
+@media (max-width: 413px) {
+    body {
+        background-image: none;
+    }
+
+    .dallas {
+        width: auto;
+    }
+
+    .navbar{
+        height: auto;
+        padding-bottom: 1rem;
+    }
+
+    .navlist {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .navlist a {
+        font-size: 1.2rem;
+    }
+
+    .bigcontainer{
+        width: auto;
+        height: auto;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .product1contain {
+        position: relative;
+        width: 20rem;
+        height: 15rem;
+        background-image: url(../web1exam/assets/DB3568-480-PHSBH001_JPG_HEI_875_WID_875_1800x1800.webp);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    
+    }
+    
+    .product2contain {
+        position: relative;
+        width: 20rem;
+        height: 15rem;
+        background-image: url(../web1exam/assets/jersey3.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+    }
+    
+    .product3contain {
+        position: relative;
+        width: 20rem;
+        height: 15rem;
+        background-image: url(../web1exam/assets/jersey4.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .product4contain {
+        position: relative;
+        width: 20rem;
+        height: 15rem;
+        background-image: url(../web1exam/assets/23-24_DanielGafford_STATEMENT_BACK_540x.webp);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .product5contain {
+        position: relative;
+        width: 20rem;
+        height: 15rem;
+        background-image: url(../web1exam/assets/24-city-edition-satin-full-snap-jacket_ss5_p-200598761+pv-1+u-y9lx0uh81wh4gg0orz2k+v-8wxxvxmi9wnyiddtfvit.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .product6contain {
+        position: relative;
+        width: 20rem;
+        height: 15rem;
+        background-image: url(../web1exam/assets/dallas-mavericks-city-edition-blue-and-green-jacket.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .product7contain {
+        position: relative;
+        width: 20rem;
+        height: 15rem;
+        background-image: url(../web1exam/assets/23_City_Edition_Merch_Nike_Grey_Hoodie_Web.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .product8contain {
+        position: relative;
+        width: 20rem;
+        height: 15rem;
+        background-image: url(../web1exam/assets/38677X_DM4_PV_1800x1800.webp);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .product9contain {
+        position: relative;
+        width: 20rem;
+        height: 15rem;
+        background-image: url(../web1exam/assets/dallas-mavericks-word-arch-graphic-t-shirt-mens_ss4_p-12085488+pv-1+u-tvdkq4lr6t8v8uvf0i03+v-b3704f6c11a74605b15a5ba1928b745f.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .product10contain {
+        position: relative;
+        width: 20rem;
+        height: 15rem;
+        background-image: url(../web1exam/assets/70707446_9FIFTY_CUS9FIFTYSNAP_DALMAV_BLK_3QL_1800x1800.webp);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .product11contain {
+        position: relative;
+        width: 20rem;
+        height: 15rem;
+        background-image: url(../web1exam/assets/70731007_9FIFTY_CUS9FIFTYSNAP_DALMAV_WHI_3QL_1800x1800.webp);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .product12contain {
+        position: relative;
+        width: 20rem;
+        height: 15rem;
+        background-image: url(../web1exam/assets/23_City_Edition\ Merch_Basketball_Web.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .price{
+        display: flex;
+        flex-direction: row;
+        gap: 0.5rem;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .price button{
+        padding: 0.5rem 1rem;
+    }
+
+    .price span{
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    .product{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid rgb(0, 107, 182);
+        padding: 2rem;
+    }
+
+    .product span{
+        font-size: 1.5rem;
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 1rem;
+    }
+
+    footer {
+        width: auto;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 15rem;
+    }
+
+    .box3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: auto;
+        height: auto;
+        align-items: center;
+        padding: 0;
+        gap: 2rem;
+        font-size: 1.2rem;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+
+    .minibox {
+        width: auto;
+        height: auto;
+    }
+
+    .minibox img {
+        width: 15rem;
+        position: absolute;
+        margin-left: 5rem;
+    }
+
+    .com {
+        width: auto;
+        border-radius: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
