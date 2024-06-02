@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../web1exam/assets/vecteezy_illuminated-basketball-stadium-illustration_23531044.jpg);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(assets/vecteezy_illuminated-basketball-stadium-illustration_23531044.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -80,7 +80,7 @@ body {
     flex-direction: column;
     width: 80vh;
     height: 50vh;
-    background-image: url(../web1exam/assets/Mavs_Home_Three-Blocks-BG.jpg);
+    background-image: url(assets/Mavs_Home_Three-Blocks-BG.jpg);
     margin-top: 5vh;
     margin-left: 31vw;
 }
@@ -134,7 +134,7 @@ footer {
 
 @media (max-width: 413px) {
     body {
-        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../web1exam/assets/vecteezy_illuminated-basketball-stadium-illustration_23531044.jpg);
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(assets/vecteezy_illuminated-basketball-stadium-illustration_23531044.jpg);
         background-position: center;
         background-size: cover;
     }

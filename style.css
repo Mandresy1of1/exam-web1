@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url(../web1exam/assets/pravi-paint.png);
+    background-image: url(assets/pravi-paint.png);
     background-position: center;
     background-size: cover;
     object-fit: cover;
@@ -55,7 +55,7 @@ body {
 .playoff {
     width: 40vw;
     height: 74vh;
-    background-image: url(../web1exam/assets/pravi-paint.png);
+    background-image: url(assets/pravi-paint.png);
     background-size: cover;
 }
 
@@ -80,7 +80,7 @@ body {
 .hero {
     display: flex;
     flex-direction: row;
-    background-image: url(../web1exam/assets/pravi-paint.png);
+    background-image: url(assets/pravi-paint.png);
     background-size: cover;
 }
 
@@ -88,7 +88,7 @@ body {
     width: 60vw;
     height: 74vh;
     text-align: center;
-    background-image: url(../web1exam/assets/pravi-paint.png);
+    background-image: url(assets/pravi-paint.png);
     /* background-size: contain; */
     background-repeat: no-repeat;
 }
@@ -155,7 +155,7 @@ h2 {
 .bgs {
     width: 100%;
     height: 50%;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(../web1exam/assets/6U7A2636-JerSean-Golatt.jpg);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(assets/6U7A2636-JerSean-Golatt.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 5px;
@@ -166,7 +166,7 @@ h2 {
 .bg {
     width: 55%;
     height: 100%;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url(../web1exam/assets/B41A0912_websize_1800x1800.jpg);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url(assets/B41A0912_websize_1800x1800.jpg);
     background-size: cover;
     background-position: center;
     margin-left: 1vw;
@@ -205,7 +205,7 @@ h2 {
     flex-direction: row;
     width: 100%;
     height: 50%;
-    background-image: url(../web1exam/assets/Mavs_Home_Three-Blocks-BG.jpg);
+    background-image: url(assets/Mavs_Home_Three-Blocks-BG.jpg);
     background-size: contain;
     background-position: center;
     margin-top: 1vh;
@@ -217,7 +217,7 @@ h2 {
     display: flex;
     width: 60%;
     height: 100%;
-    background-image: url(../web1exam/assets/pravi-paint.png);
+    background-image: url(assets/pravi-paint.png);
     padding: 1rem;
 }
 
@@ -292,7 +292,7 @@ footer {
     width: 80%;
     margin: 0 auto;
     padding: 20px;
-    background-image: url(../web1exam/assets/Mavs_Home_Three-Blocks-BG.jpg);
+    background-image: url(assets/Mavs_Home_Three-Blocks-BG.jpg);
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
